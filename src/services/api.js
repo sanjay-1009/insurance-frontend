@@ -2,7 +2,7 @@ import axios from "axios";
 
 const API = axios.create({
     baseURL:
-        "http://localhost:8080/InsuranceClaimSystem"
+        "https://signum-insurance-system.onrender.com"
 });
 
 API.interceptors.request.use(
