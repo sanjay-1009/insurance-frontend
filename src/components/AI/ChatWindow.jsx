@@ -47,7 +47,7 @@ function ChatWindow() {
 
                 await API.post(
 
-                    "http://localhost:8081/ai/chat",
+                    "https://signum-ai-service.onrender.com/ai/chat",
 
                     {
 

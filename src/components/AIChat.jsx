@@ -16,7 +16,7 @@ function AIChat() {
         try{
 
             const res = await axios.post(
-                "http://localhost:8081/ai/chat",
+                "https://signum-ai-service.onrender.com/ai/chat",
                 message,
                 {
                     headers:{
